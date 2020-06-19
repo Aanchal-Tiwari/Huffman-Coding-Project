@@ -23,7 +23,7 @@ Let there be four characters a, b, c and d, and their corresponding variable len
 - Go back through the list and take the two symbols/subtrees with the smallest probabilities and combine those into a new subtree. Remove the original symbols/subtrees from the list, and add the new subtree to the list.
 
 -Repeat until all of the elements are combined.
-########################################################################################################################################
+#######################################################################################
 # Time Complexity-
 The time complexity analysis of Huffman Coding is as follows-
 
@@ -34,5 +34,5 @@ Thus, Overall time complexity of Huffman Coding becomes O(nlogn).
 
 Here, n is the number of unique characters in the given text.
 
-########################################################################################################################################
+#########################################################################################
 Huffman coding is optimal for encoding single characters, but for encoding multiple characters with one encoding, other compression methods are better. Moreover, it is optimal when each input symbol is a known independent and identically distributed random variable having a probability that is the inverse of a power of two.
