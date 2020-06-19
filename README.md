@@ -36,3 +36,5 @@ Here, n is the number of unique characters in the given text.
 
 #########################################################################################
 Huffman coding is optimal for encoding single characters, but for encoding multiple characters with one encoding, other compression methods are better. Moreover, it is optimal when each input symbol is a known independent and identically distributed random variable having a probability that is the inverse of a power of two.
+
+# NOTE - The file path used in the code is with respect to my system.
